@@ -1,0 +1,38 @@
+.navbar{
+    background-color: #D8EEF6;
+}
+
+.nav-link:hover{
+    text-decoration: underline;
+}
+.nav-item{
+    font-size: large;
+}
+.nav-item .btn{
+    background-color: #38B6FF;
+    color: white;
+    font-size: large;
+}
+.nav-item .btn:hover{
+    background-color: #aeb0d4;
+}
+.carousel .slide-1{
+    font-weight: bold;
+    background-image: url("../img/Donat.jpg"); 
+    background-size: cover;
+    height: 500px;
+}
+
+.about-section {
+    background-image: url('../img/Shop.png');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    color: white;
+}
+
+.milk-layer {
+    padding: 70px;
+    box-sizing: border-box;
+    background-color: rgb(255, 255, 255, 0.7);
+}
