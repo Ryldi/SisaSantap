@@ -96,32 +96,70 @@
     </div>
 </section>
 
-<!-- Terlaris Minggu Ini Section -->
-<section class="best-sellers py-5 bg-light">
-    <div class="container text-center">
-        <h2>Terlaris Minggu Ini</h2>
-        <div class="row">
-            <div class="col-md-4">
-                <img src="path-to-dunkin-donuts-logo.png" class="img-fluid" alt="Dunkin Donuts">
+
+<section class="best-sellers">
+    <div class="coffee-layer gap-5">
+        <div class="text-center">
+            <h2 class="fw-bold text-center text-light pb-4">Terlaris Minggu Ini</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <img src="{{ asset('img/Dunkin.png') }}" alt="Dunkin Donuts" height="175">
+                </div>
+                <div class="col-md-4">
+                    <img src="{{ asset('img/Jco.png') }}" alt="JCO" height="150">
+                </div>
+                <div class="col-md-4">
+                    <img src="{{ asset('img/MCD.png') }}" alt="McDonald's" height="150">
+                </div>
             </div>
-            <div class="col-md-4">
-                <img src="path-to-jco-logo.png" class="img-fluid" alt="JCO">
-            </div>
-            <div class="col-md-4">
-                <img src="path-to-mcdonalds-logo.png" class="img-fluid" alt="McDonald's">
+        </div>
+        <div class="text-center">
+            <h2 class="fw-bold text-center text-light pb-4">Produk Populer</h2>
+            <div class="row">
+                <div class="col-md-3">
+                    <img src="{{ asset('img/Dunkin.png') }}" alt="Dunkin Donuts" height="175">
+                </div>
+                <div class="col-md-3">
+                    <img src="{{ asset('img/Jco.png') }}" alt="JCO" height="150">
+                </div>
+                <div class="col-md-3">
+                    <img src="{{ asset('img/MCD.png') }}" alt="McDonald's" height="150">
+                </div>
+                <div class="col-md-3 align-self-center">
+                    <img src="{{ asset('img/HokBen.png') }}" alt="HokBen" height="70">
+                </div>
             </div>
         </div>
     </div>
 </section>
 
-<!-- Footer -->
-<footer class="footer py-4 bg-light">
-    <div class="container text-center">
-        <p>&copy; 2024 SisaSantap.com. All Rights Reserved.</p>
-        <div class="social-links">
-            <a href="#">Instagram</a> |
-            <a href="#">Facebook</a> |
-            <a href="#">Twitter</a>
+
+<footer class="footer py-4">
+    <div class="container">
+        <div class="row">
+            <div class="col-5">
+                <img src="{{ asset('img/Logo.png') }}" alt="" class="img-fluid">
+            </div>
+            <div class="col-3 d-flex flex-column gap-3 align-self-center">
+                <a href="" class="row text-decoration-none text-dark fw-bold">Tentang Kami</a>
+                <a href="" class="row text-decoration-none text-dark fw-bold">Product</a>
+                <a href="" class="row text-decoration-none text-dark fw-bold">Kebijakan Privasi</a>
+                <a href="" class="row text-decoration-none text-dark fw-bold">Syarat dan Ketentuan</a>
+            </div>
+            <div class="col-4 align-self-center">
+                <h3 class="fw-bold text-center">Follow Us</h3>
+                <div class="d-flex gap-3 justify-content-center">
+                    <a href=""><img src="{{ asset('img/facebook.png') }}" alt="" height="50"></a>
+                    <a href=""><img src="{{ asset('img/twitter.png') }}" alt="" height="50"></a>
+                    <a href=""><img src="{{ asset('img/youtube.png')  }}" alt="" height="50"></a>
+                    <a href=""><img src="{{ asset('img/instagram.png') }}" alt="" height="50"></a>
+                    <a href=""><img src="{{ asset('img/linkedin.png') }}" alt="" height="50"></a>
+                </div>
+            </div>
         </div>
     </div>
 </footer>
+
+<div class="text-center copyright py-3">
+    &copy; 2024 SisaSantap.com.
+</div>

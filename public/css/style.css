@@ -20,7 +20,7 @@
     font-weight: bold;
     background-image: url("../img/Donat.jpg"); 
     background-size: cover;
-    height: 500px;
+    height: 550px;
 }
 
 .about-section {
@@ -32,7 +32,30 @@
 }
 
 .milk-layer {
-    padding: 70px;
+    padding: 100px;
     box-sizing: border-box;
     background-color: rgb(255, 255, 255, 0.7);
+}
+
+.best-sellers{
+    background-image: url('../img/Populer.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.coffee-layer{
+    height: 120%;	
+    padding: 100px;
+    box-sizing: border-box;
+    background-color: rgb(000, 000, 000, 0.5);
+}
+
+.footer{
+    background-color: #D8EEF6;
+}
+
+.copyright{
+    background-color: #38B6FF;
+    color: white;
 }
